@@ -1,0 +1,62 @@
+.header {
+  text-align: center;
+
+  &__image {
+    width: 400px;
+  }
+
+  &__audio {
+    position: absolute;
+    right: 0;
+    margin: 10px 10px 0 0px;
+    height: 30px;
+    width: 100px;
+  }
+
+  &__filter-group {
+    height: 40px;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+input {
+  width: 200px;
+  height: 100%;
+  border: none;
+  background: white;
+  background-color: white;
+
+  &:focus {
+    outline-color: #FFD700;
+    box-shadow: 0 0 9px 3px #FFD700;
+  }
+}
+
+select {
+  border: none;
+  background: white;
+  background-color: white;
+  height: 100%;
+  margin-left: 5px;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 9px 3px #FFD700;
+  }
+}
+
+button {
+  height: 100%;
+  width: 50px;
+  border: none;
+  background: white;
+  margin-left: 5px;
+
+  &:hover {
+    background-color: #FFD700;
+    cursor: pointer;
+  }
+}
